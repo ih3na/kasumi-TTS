@@ -39,7 +39,7 @@ else:
 
 
 
-# tts
+# tts generate
 tts=gtts.gTTS(text, lang="en")
 tts.save("out.mp3")
 playsound("out.mp3")
